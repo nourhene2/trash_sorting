@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004d40;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #e0f2f1;
+}
+
+.main-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-text h1 {
+  font-size: 36px;
+  color: #004d40;
+}
+
+.main-text p {
+  font-size: 18px;
+  color: #555;
+}
+
+.main-image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.main-image {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Popular Categories Section */
+.popular-section {
+  margin: 20px;
+  padding: 20px;
+}
+
+.popular-section h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #004d40;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 180px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
