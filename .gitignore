@@ -1,0 +1,21 @@
+# Ignore Python virtual environment
+env/
+
+# Ignore dataset directories (if they can be regenerated or downloaded again)
+garbage_classification/
+organized_test_dir/
+organized_train_dir/
+organized_val_dir/
+test_dir/
+train_dir/
+val_dir/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files if they can be regenerated
+*.h5
+
+# Ignore system files
+.DS_Store
+Thumbs.db
