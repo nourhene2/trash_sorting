@@ -1,0 +1,106 @@
+/* General Styling */
+.category-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+  }
+  
+  .category-page h1 {
+    font-size: 36px;
+    color: #004d40;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .category-page p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .category-page h3 {
+    font-size: 24px;
+    color: #004d40;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Comments Section */
+  .comments-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comments-section h3 {
+    font-size: 24px;
+    color: #004d40;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .comment-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    resize: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-comment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-comment-button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+  }
+  
+  .comments-list {
+    margin-top: 20px;
+  }
+  
+  .comments-list h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .comment {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Empty Comments Message */
+  .no-comments {
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+  }
+  

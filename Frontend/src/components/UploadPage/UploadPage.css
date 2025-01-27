@@ -1,0 +1,166 @@
+/* Global Styles */
+.upload-page {
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header Section */
+.upload-header {
+  background: linear-gradient(135deg, #3b8d40, #4caf50);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.upload-header p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Upload Section */
+.upload-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.upload-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.upload-input {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+
+.upload-input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Image Preview */
+.upload-input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Image Preview */
+.image-preview {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 2px solid #ddd;
+}
+
+.image-preview:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.image-preview h2 {
+  font-size: 22px;
+  color: #004d40;
+  margin-bottom: 15px;
+}
+
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  border: 4px solid #ddd;
+}
+
+/* Classify Section */
+.classify-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.classify-section h2 {
+  font-size: 26px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.classify-button {
+  background: linear-gradient(135deg, #2196f3, #0b7dda);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.classify-button:hover {
+  background: linear-gradient(135deg, #1976d2, #005cb2);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Result Section */
+.result-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
